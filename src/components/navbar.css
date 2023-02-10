@@ -1,0 +1,39 @@
+.nav{
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items:stretch;
+    gap: 2rem;
+    justify-content:space-between;
+    padding : 0 1rem;
+}
+
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display:flex;
+    gap:1 rem;
+
+}
+
+.container{
+    margin: 1 rem;
+    text-align:center;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    height:100%;
+    display: flex;
+    align-items:center;
+    padding:.25rem;
+}
+
+.nav li.active{
+    background-color: brown;
+}
+
+.nav li.hover{
+    background-color: aqua;
+}
